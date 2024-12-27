@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "w79hZEIoC0WWrGOmqm79wQuivWUOjvHqyiNWZ9IiFfI=",
+  "Source": "AuditorsAPI",
+  "BasePath": "_content/AuditorsAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

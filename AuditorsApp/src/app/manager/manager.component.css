@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+  }
+  
+  .container {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+  }
+  table th .button {
+    margin: 0 auto;
+    display: block;
+  }
+  
+  
+  .button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
+  
+  
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  table th, table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .action-buttons .edit {
+    padding: 5px 10px;
+    background-color: #359c3e;  font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  .action-buttons .delete {
+    padding: 5px 10px;
+    background-color: #9c1b1b;  font-size: 14px;
+    border-radius: 4px;
+  }
+  .add-student-container {
+    text-align: center; /* Center the button horizontally */
+    margin-bottom: 10px; /* Add space between the button and the table */
+  }
+  
+  .add-student-container button {
+    padding: 10px 20px; /* Add padding for better appearance */
+    font-size: 16px; /* Adjust font size */
+    cursor: pointer;
+  }
+  
+  .table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* Ensure the table takes full width */
+  }
+  .pagination-controls button {
+    margin: 0 10px;
+    padding: 5px 10px;
+  }
+  
+  .pagination-controls span {
+    font-weight: bold;
+  }
+  
+  
+  @media (max-width: 600px) {
+    table {
+      font-size: 12px;
+    }
+  
+    .button {
+      font-size: 14px;
+  
+    }
+  }

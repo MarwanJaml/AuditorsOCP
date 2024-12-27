@@ -1,0 +1,133 @@
+<form #Form="ngForm" (ngSubmit)="onSubmit(Form)">
+    <p>
+      <label for="officeName">اسم المكتب</label>
+      <input 
+        id="officeName" 
+        name="officeName" 
+        type="text" 
+        [(ngModel)]="service.newData.officeName" 
+        #officeName="ngModel"
+        required 
+      />
+      <span *ngIf="officeName.invalid && officeName.touched">Office Name is required.</span>
+    </p>
+  
+    <p>
+        <label for="phoneNumber">رقم الهاتف</label>
+        <input 
+          id="phoneNumber" 
+          name="phoneNumber" 
+          type="text" 
+          [(ngModel)]="service.newData.phoneNumber" 
+          #phoneNumber="ngModel"
+          required 
+          minlength="10" 
+          maxlength="10"
+        />
+        <span *ngIf="phoneNumber.invalid && phoneNumber.touched">
+          Phone number must be 10 digits.
+        </span>
+      </p>
+  
+    <p>
+      <label for="email">البريد الالكتروني</label>
+      <input 
+        id="email" 
+        name="email" 
+        type="email" 
+        [(ngModel)]="service.newData.email" 
+        #email="ngModel"
+        required 
+      />
+      <span *ngIf="email.invalid && email.touched">Valid Email is required.</span>
+    </p>
+    <p>
+        <label for="taxNumber">الرقم الضريبي</label>
+        <input 
+          id="taxNumber" 
+          name="taxNumber" 
+          type="text" 
+          [(ngModel)]="service.newData.taxNumber" 
+          #taxNumber="ngModel"
+          required 
+        />
+        <span *ngIf="taxNumber.invalid && taxNumber.touched">Tax Number is required.</span>
+      </p>
+  
+    <p>
+      <label for="accountantsNumber">عدد المحاسبين</label>
+      <input 
+        id="accountantsNumber" 
+        name="accountantsNumber" 
+        type="text" 
+        [(ngModel)]="service.newData.accountantsNumber" 
+        #accountantsNumber="ngModel"
+        required 
+      />
+      <span *ngIf="accountantsNumber.invalid && accountantsNumber.touched">
+        Accountants number is required.
+      </span>
+    </p>
+    <p>
+        <label for="employeesNumber">عدد الموظفين</label>
+        <input 
+          id="employeesNumber" 
+          name="employeesNumber" 
+          type="text" 
+          [(ngModel)]="service.newData.employeesNumber" 
+          #employeesNumber="ngModel"
+          required 
+
+        />
+        <span *ngIf="employeesNumber.invalid && employeesNumber.touched">
+            Employees number is required.
+        </span>
+      </p>
+    
+    <p>
+        <label for="publicAccountant">المحاسب القانوني</label>
+        <input 
+          id="publicAccountant" 
+          name="publicAccountant" 
+          type="text" 
+          [(ngModel)]="service.newData.publicAccountant" 
+          #publicAccountant="ngModel"
+          required 
+        />
+        <span *ngIf="publicAccountant.invalid && publicAccountant.touched">Public Accountant is required.</span>
+      </p>
+
+      <p>
+        <label for="leaveNumber">رقم الاجازة</label>
+        <input 
+          id="leaveNumber" 
+          name="leaveNumber" 
+          type="text" 
+          [(ngModel)]="service.newData.leaveNumber" 
+          #leaveNumber="ngModel"
+          required 
+
+        />
+        <span *ngIf="leaveNumber.invalid && leaveNumber.touched">
+            Leave Number is required.
+        </span>
+      </p>
+      <p>
+        <label for="expectedBNumber">رقم الميزانية المتوقع</label>
+        <input 
+          id="expectedBNumber" 
+          name="expectedBNumber" 
+          type="text" 
+          [(ngModel)]="service.newData.expectedBNumber" 
+          #expectedBNumber="ngModel"
+          required 
+        />
+        <span *ngIf="expectedBNumber.invalid && expectedBNumber.touched">
+            Leave Number is required.
+        </span>
+      </p>
+    
+  
+    <button type="submit" [disabled]="Form.invalid">Save</button>
+  </form>
+  

@@ -1,0 +1,56 @@
+<div class="table-container">
+    <div class="add-student-container">
+      <!--input 
+      type="text"
+      [(ngModel)]="search"
+      (input)="filteredStudent()"
+      placeholder="search.."
+      /-->
+      <button class="button" (click)="navigateToForm()">Add Data</button>
+    </div>
+      <table class="container">
+        <thead>
+          <tr>
+            <th scope="col">رقم المكتب</th>
+            <th scope="col">اسم المكتب</th>
+            <th scope="col">رقم الهاتف</th>
+            <th scope="col">البريد الالكتروني</th>
+            <th scope="col">الرقم الضريبي</th>
+            <th scope="col">عدد المحاسبين</th>
+            <th scope="col">عدد الموظفين</th>
+            <th scope="col">المحاسب القانوني</th>
+            <th scope="col">رقم الاجازة</th>
+            <th scope="col">عدد الميزانيات المتوقع</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let r of service.records">
+            <tr *ngFor="let r of service.records">
+                <td>{{ r.officeID }}</td>
+                <td>{{ r.officeName }}</td>
+                <td>{{ r.phoneNumber }}</td>
+                <td>{{ r.email }}</td>
+                <td>{{ r.taxNumber }}</td>
+                <td>{{ r.accountantsNumber }}</td>
+                <td>{{ r.employeesNumber }}</td>
+                <td>{{ r.publicAccountant }}</td>
+                <td>{{ r.leaveNumber }}</td>
+                <td>{{ r.expectedBNumber }}</td>
+            <td>
+              <div class="action-buttons">
+                <button  class="edit" (click)="populateForm(r)">Edit</button>
+                <button class="delete" (click)="deleteRecord(r.officeID)">Delete</button>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+        <!-- Pagination Controls -->
+    <!--div class="pagination-controls">
+      <button (click)="previousPage()" [disabled]="currentPage === 1">Previous</button>
+      <span>Page {{ currentPage }} of {{ totalPages }}</span>
+      <button (click)="nextPage()" [disabled]="currentPage === totalPages">Next</button>
+    </div-->
+      

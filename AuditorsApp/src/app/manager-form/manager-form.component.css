@@ -1,0 +1,46 @@
+form {
+    padding: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    max-width: 30rem;
+    margin: 5rem auto;
+    border-radius: 4px;
+    background: linear-gradient(180deg, #fafafa, #bdcec7);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #182522;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    color: #060a09;
+    font-size: 1rem;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #000000;
+    border-radius: 0.25rem;
+    background-color: #619682;
+    color: #1a1f1d;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #aaf1d6;
+  }

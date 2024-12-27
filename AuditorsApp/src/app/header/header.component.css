@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(#ffffff, #ffffff);
+  color: #000000;
+  min-height: 100vh;
+}
+
+.center {
+  text-align: center;
+}
+/* Circular Logo */
+.logo {
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Keep height and width equal for a perfect circle */
+  border-radius: 50%; /* Makes the logo circular */
+  object-fit: cover; /* Ensures the image scales correctly inside the circle */
+  border: 2px solid #ffffff; /* Optional: Adds a border */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}

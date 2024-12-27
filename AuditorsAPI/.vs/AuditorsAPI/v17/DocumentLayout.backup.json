@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Auditors\\AuditorsAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A88519-BC9C-45EB-B194-EFB80317A8E2}|AuditorsAPI\\AuditorsAPI.csproj|c:\\auditors\\auditorsapi\\auditorsapi\\controllers\\managerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A88519-BC9C-45EB-B194-EFB80317A8E2}|AuditorsAPI\\AuditorsAPI.csproj|solutionrelative:auditorsapi\\controllers\\managerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A88519-BC9C-45EB-B194-EFB80317A8E2}|AuditorsAPI\\AuditorsAPI.csproj|c:\\auditors\\auditorsapi\\auditorsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A88519-BC9C-45EB-B194-EFB80317A8E2}|AuditorsAPI\\AuditorsAPI.csproj|solutionrelative:auditorsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A88519-BC9C-45EB-B194-EFB80317A8E2}|AuditorsAPI\\AuditorsAPI.csproj|c:\\auditors\\auditorsapi\\auditorsapi\\models\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A88519-BC9C-45EB-B194-EFB80317A8E2}|AuditorsAPI\\AuditorsAPI.csproj|solutionrelative:auditorsapi\\models\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A88519-BC9C-45EB-B194-EFB80317A8E2}|AuditorsAPI\\AuditorsAPI.csproj|c:\\auditors\\auditorsapi\\auditorsapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A0A88519-BC9C-45EB-B194-EFB80317A8E2}|AuditorsAPI\\AuditorsAPI.csproj|solutionrelative:auditorsapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Auditors\\AuditorsAPI\\AuditorsAPI\\Migrations\\20241227005219_F Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AuditorsAPI\\Migrations\\20241227005219_F Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A88519-BC9C-45EB-B194-EFB80317A8E2}|AuditorsAPI\\AuditorsAPI.csproj|c:\\auditors\\auditorsapi\\auditorsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A0A88519-BC9C-45EB-B194-EFB80317A8E2}|AuditorsAPI\\AuditorsAPI.csproj|solutionrelative:auditorsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A88519-BC9C-45EB-B194-EFB80317A8E2}|AuditorsAPI\\AuditorsAPI.csproj|c:\\auditors\\auditorsapi\\auditorsapi\\models\\managercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0A88519-BC9C-45EB-B194-EFB80317A8E2}|AuditorsAPI\\AuditorsAPI.csproj|solutionrelative:auditorsapi\\models\\managercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0A88519-BC9C-45EB-B194-EFB80317A8E2}|AuditorsAPI\\AuditorsAPI.csproj|c:\\auditors\\auditorsapi\\auditorsapi\\auditorsapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A0A88519-BC9C-45EB-B194-EFB80317A8E2}|AuditorsAPI\\AuditorsAPI.csproj|solutionrelative:auditorsapi\\auditorsapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1329,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Auditors\\AuditorsAPI\\AuditorsAPI\\Program.cs",
+              "RelativeDocumentMoniker": "AuditorsAPI\\Program.cs",
+              "ToolTip": "C:\\Auditors\\AuditorsAPI\\AuditorsAPI\\Program.cs",
+              "RelativeToolTip": "AuditorsAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T15:56:44.544Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ManagersController.cs",
+              "DocumentMoniker": "C:\\Auditors\\AuditorsAPI\\AuditorsAPI\\Controllers\\ManagersController.cs",
+              "RelativeDocumentMoniker": "AuditorsAPI\\Controllers\\ManagersController.cs",
+              "ToolTip": "C:\\Auditors\\AuditorsAPI\\AuditorsAPI\\Controllers\\ManagersController.cs",
+              "RelativeToolTip": "AuditorsAPI\\Controllers\\ManagersController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwB4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T01:26:26.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20241227005219_F Migration.cs",
+              "DocumentMoniker": "C:\\Auditors\\AuditorsAPI\\AuditorsAPI\\Migrations\\20241227005219_F Migration.cs",
+              "RelativeDocumentMoniker": "AuditorsAPI\\Migrations\\20241227005219_F Migration.cs",
+              "ToolTip": "C:\\Auditors\\AuditorsAPI\\AuditorsAPI\\Migrations\\20241227005219_F Migration.cs",
+              "RelativeToolTip": "AuditorsAPI\\Migrations\\20241227005219_F Migration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T00:52:23.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ManagerContext.cs",
+              "DocumentMoniker": "C:\\Auditors\\AuditorsAPI\\AuditorsAPI\\Models\\ManagerContext.cs",
+              "RelativeDocumentMoniker": "AuditorsAPI\\Models\\ManagerContext.cs",
+              "ToolTip": "C:\\Auditors\\AuditorsAPI\\AuditorsAPI\\Models\\ManagerContext.cs",
+              "RelativeToolTip": "AuditorsAPI\\Models\\ManagerContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T00:41:13.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\Auditors\\AuditorsAPI\\AuditorsAPI\\Models\\Manager.cs",
+              "RelativeDocumentMoniker": "AuditorsAPI\\Models\\Manager.cs",
+              "ToolTip": "C:\\Auditors\\AuditorsAPI\\AuditorsAPI\\Models\\Manager.cs",
+              "RelativeToolTip": "AuditorsAPI\\Models\\Manager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwB0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T00:39:51.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Auditors\\AuditorsAPI\\AuditorsAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AuditorsAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Auditors\\AuditorsAPI\\AuditorsAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AuditorsAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-26T20:21:40.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Auditors\\AuditorsAPI\\AuditorsAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "AuditorsAPI\\appsettings.json",
+              "ToolTip": "C:\\Auditors\\AuditorsAPI\\AuditorsAPI\\appsettings.json",
+              "RelativeToolTip": "AuditorsAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-26T16:07:58.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuditorsAPI.csproj",
+              "DocumentMoniker": "C:\\Auditors\\AuditorsAPI\\AuditorsAPI\\AuditorsAPI.csproj",
+              "RelativeDocumentMoniker": "AuditorsAPI\\AuditorsAPI.csproj",
+              "ToolTip": "C:\\Auditors\\AuditorsAPI\\AuditorsAPI\\AuditorsAPI.csproj",
+              "RelativeToolTip": "AuditorsAPI\\AuditorsAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-26T16:02:18.326Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
